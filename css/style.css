@@ -1,0 +1,126 @@
+body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  width: 70%;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h1 {
+  color: #db37d5;
+  font-family: sans-serif;
+  font-size: 26px;
+  text-align: center;
+}
+
+ul {
+  column-count: 4;
+  column-width: 100px;
+  list-style: none;
+}
+
+.sprinkles {
+  height: 400px;
+  width: 400px;
+}
+
+/*first-of-type styles the first element of the specific type*/
+p:first-of-type {
+  font-style: italic;
+}
+
+img:first-of-type {
+  border: 5px solid #a887d0;
+}
+
+/*last-of-type styles the last element of the specific type*/
+img:last-of-type {
+  border: 5px solid #2fe9d9;
+}
+
+/*only-of-type only styles that one element*/
+a:only-of-type {
+  color: #4292cf;
+  text-decoration: none;
+}
+
+/*unvisited link*/
+a:link {
+  color: #4292cf;
+}
+
+/*visited link*/
+a:visited {
+  color: #0f8b7c;
+}
+
+/*mouse over link changes color*/
+a:hover {
+  color: #0476cc;
+}
+
+/*quotation mark characters \201C=left quote (double high-6) and \201D=right quote (double high-9)*/
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  font-family: sans-serif;
+  margin: 5px 15px;
+  padding: 10px;
+  quotes: "\201C""\201D";
+}
+
+/*::before inserts content before every blockquote*/
+blockquote::before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 50px;
+  line-height: 10px;
+  vertical-align: -20px;
+}
+
+/*::after inserts content after every blockquote*/
+blockquote::after {
+  color: #ccc;
+  content: close-quote;
+  font-size: 50px;
+  line-height: 10px;
+  vertical-align: -20px;
+}
+
+/*::first-letter selects the first letter of whatever element is specified*/
+p::first-letter {
+  color: #ff00a1;
+}
+
+/*::first-line selects the first line of whatever element is specified*/
+p::first-line {
+  font-weight: bold;
+}
+
+/*styles all the odd index paragraph tags; nth-of-type can take keywords, values, and formulas*/
+p:nth-of-type(even) {
+  color: #862fe9;
+}
+
+/*styles the 10th paragraph*/
+p:nth-of-type(10) {
+  color: #2f69e9;
+}
+
+/*:first-child selects every element that is the first child of its parent*/
+li:first-child {
+  color: #24b68f;
+}
+
+/*:last-child selects every element that is the last child of its parent*/
+li:last-child {
+  color: #24b68f;
+}
