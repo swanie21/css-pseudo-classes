@@ -1,3 +1,7 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
 body {
   align-items: center;
   display: flex;
@@ -16,7 +20,7 @@ article {
 
 h1 {
   color: #db37d5;
-  font-family: sans-serif;
+  font-family: 'Lora', serif;
   font-size: 26px;
   text-align: center;
 }
@@ -25,6 +29,10 @@ ul {
   column-count: 4;
   column-width: 100px;
   list-style: none;
+}
+
+p {
+  line-height: 24px;
 }
 
 .sprinkles {
@@ -71,7 +79,7 @@ a:hover {
 blockquote {
   background: #f9f9f9;
   border-left: 10px solid #ccc;
-  font-family: sans-serif;
+  font-family: 'Lora', serif;
   margin: 5px 15px;
   padding: 10px;
   quotes: "\201C""\201D";
