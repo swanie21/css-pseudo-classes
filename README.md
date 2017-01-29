@@ -9,6 +9,7 @@ selector:pseudo-class {
   property: value;
 }
 ```
+<img src="img/examples.png" alt="pseudo-class examples" height="600px" width="450px">
 
 In this repo I have included several pseudo-class examples:
 ```
