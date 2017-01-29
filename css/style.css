@@ -124,3 +124,42 @@ li:first-child {
 li:last-child {
   color: #24b68f;
 }
+
+@media screen and (max-width: 1030px) {
+  section {
+    width: 80%;
+  }
+
+  .sprinkles {
+    height: 385px;
+    width: 385px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  section {
+    width: 90%;
+  }
+
+  .sprinkles {
+    height: 320px;
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  article {
+    flex-direction: column;
+  }
+
+  .sprinkles {
+    height: 100%;
+    margin: 5px 0;
+    width: 100%;
+  }
+
+  .cupcakes {
+    height: 100%;
+    width: 100%;
+  }
+}
